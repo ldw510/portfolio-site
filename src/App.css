@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.projects,
+.aboutMe {
+  display: flex;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services-container, .projects-container, .aboutMe-container {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 70px;
+  color: #fff;
+  background-image: url('images/services.jpg');
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.aboutMe-container-img{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  background-image: url('images/bluewooden.jpg');
+}
+
+.services-container, .projects-container, .aboutMe-container > h1 {
+  color: #fff;
+  font-size: 70px;
+  margin-top: -10px;
+}
+
+.services-container, .projects-container, .aboutMe-container > p {
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+.projects-container {
+  background-image: url('images/sky.jpg');
+  height: 35vh;
+}
+
+.aboutMe-container {
+  background-image: url('images/bluewooden.jpg');
+  height: 100vh;
+  background-repeat: repeat;
+}
+
+.myimage {
+  height: 400px;
+  width: 400px;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('images/me.jpg');
+  padding: 1px;
+  border-radius: 200px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .services-container, .projects-container > h1 {
+    font-size: 30px;
+    margin-top: -100px;
+  }
+
+  .aboutMe-container > h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15%;
+    }
+
+  .services-container, .projects-container, .aboutMe-container > p {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  .projects-container {
+  margin-top: 0.1%;
+  height: 25vh; 
+  }
+
+  .myimage {
+  width: 100%;
+  height: 350px;
+  }
+}
