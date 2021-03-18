@@ -22,7 +22,7 @@
   background-repeat: no-repeat;
   font-size: 70px;
   color: #fff;
-  background-image: url('./images/1.png');
+  background-image: url('./images/1.webp');
   height: 100vh;
   width: 100%;
   display: flex;
@@ -40,7 +40,7 @@
   justify-content: center;
   align-items: center;
   object-fit: contain;
-  background-image: url('images/3.png');
+  background-image: url('images/3.webp');
 }
 
 .aboutMe-container > h1 {
@@ -91,12 +91,12 @@
 }
 
 .projects-container {
-  background-image: url('images/2.png');
+  background-image: url('images/2.webp');
   height: 35vh;
 }
 
 .aboutMe-container {
-  background-image: url('images/5.png');
+  background-image: url('images/5.webp');
   height: 100vh;
   background-repeat: repeat;
 }
@@ -112,7 +112,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('images/me.jpg');
+  background-image: url('images/me.webp');
   padding: 1px;
   border-radius: 200px;
 }
@@ -126,7 +126,7 @@
 
   .aboutMe-container, .services-container {
     height: 110vh;
-    background-image: url('images/2.png');
+    background-image: url('images/2.webp');
   }
 
   .projects-container > h1 {
