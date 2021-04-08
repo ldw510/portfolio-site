@@ -14,6 +14,11 @@ function Services () {
         <p>Please contact me for more information.</p> 
         <p><br/>EMAIL: liam.wallace@hotmail.co.uk <br/> PHONE NO: +385 976202725 </p>
       </div>
+      <form action="https://formspree.io/liam.wallace@hotmail.co.uk">
+         <input type="text" name="name">
+         <input type="email" name="_replyto">
+         <input type="submit" value="Send">
+      </form>
       <Footer />
     </>
     )
