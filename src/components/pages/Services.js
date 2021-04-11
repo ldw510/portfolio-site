@@ -14,8 +14,6 @@ function Services () {
         <p>Please contact me for more information.</p> 
         <p><br/>EMAIL: liam.wallace@hotmail.co.uk <br/> PHONE NO: +385 976202725 </p>
       </div>
-                   <div class="powr-form-builder" id="77ed9814_1618154420"></div><script src="https://www.powr.io/powr.js?platform=react"></script>
-
       <Footer />
     </>
     )
