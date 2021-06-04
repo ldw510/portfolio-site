@@ -9,6 +9,16 @@ function Cards() {
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
+                        <CardItem src="images/brand-logo.png" 
+                        text="TRIEND" 
+                        label="website" 
+                        path="https://triendtravel.com/">
+                        </CardItem>
+                        <CardItem src="images/logo.svg" 
+                        text="BANDALO KIROPRAKTIKA" 
+                        label="website" 
+                        path="http://bandalokiropraktikasplit.com/">
+                        </CardItem>
                         <CardItem src="images/nicoa.webp" 
                         text="HOSTEL NICOA" 
                         label="website" 
